@@ -1,0 +1,193 @@
+{
+ "_about": "Every figure published on the README has an entry here. The internal register replays each one against live evidence; a claim whose check fails blocks publication.",
+ "_note": "Verification commands run in the source repository and are not reproduced here: they reference its private layout. What this file commits to is the list itself — an assertion missing from it is an assertion nothing guards.",
+ "generated": "2026-08-20",
+ "claims": [
+  {
+   "id": "corpus-size",
+   "claim": "1,924 markdown notes under version control (measured 2026-08-18)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "retrieval-shape",
+   "claim": "lexical and dense retrieval fused locally, with no vector database to run",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "doctor-no-model",
+   "claim": "a health loop that runs on no model at all",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "guardrails-tested",
+   "claim": "guardrails that are tested code",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "cross-cutting-measured",
+   "claim": "measures how much of the corpus actually cuts across [the clusters]",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "schema-check-gap",
+   "claim": "malformed frontmatter went from 9% to 0%",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "upstream-fixes",
+   "claim": "Ten of my fixes have been adopted upstream, across two projects -- eight in Graphify-Labs/graphify, two in DeusData/codebase-memory-mcp",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "watcher-blind-six-days",
+   "claim": "one of my own watchers, which had been running and reporting nothing for six days",
+   "kind": "historical",
+   "verification": "recorded with dated evidence at verification time"
+  },
+  {
+   "id": "guardrail-had-no-tests",
+   "claim": "the guardrail meant to stop destructive commands had no tests at all, plus a bypass",
+   "kind": "historical",
+   "verification": "recorded with dated evidence at verification time"
+  },
+  {
+   "id": "openworker-no-instrumentation",
+   "claim": "no token accounting, no cost tracking, no prompt caching and no context compaction",
+   "kind": "external",
+   "verification": "recorded with dated evidence at verification time"
+  },
+  {
+   "id": "memory-benchmark-spread",
+   "claim": "84%, then 58.44% after a competitor re-ran it, then 75.14% after the first vendor rebutted",
+   "kind": "external",
+   "verification": "recorded with dated evidence at verification time"
+  },
+  {
+   "id": "graphify-scale",
+   "claim": "starting with Graphify — a young project already past 100k stars",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "translation-rendition-model",
+   "claim": "a translation carries a hash of its source, regenerates when the source changes, and stays out of the graph and the link counts",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "core-runs-without-model",
+   "claim": "The core costs nothing to run. A model writes prose, and does nothing else.",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "link-structure-thinness",
+   "claim": "an entire theme had zero inbound links; a linking pass took cross-theme links from 45 to 257 and that theme from 0 to 81 inbound (measured 2026-07-28)",
+   "kind": "historical",
+   "verification": "recorded with dated evidence at verification time"
+  },
+  {
+   "id": "codebase-file-sizes",
+   "claim": "files above the 1000-line ceiling carry a named derogation (guard exits 0)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "retrieval-grep-baseline",
+   "claim": "on a frozen 24-question, 241-note benchmark a tokenized substring baseline reaches hit@4 = 0.750, against 0.792 for the dense arm and 0.875 for the shipped hybrid; no arm is separated from it at p < 0.05, and the declared attainable maximum is precision@4 = 0.354",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "retrieval-grep-arm-permanent",
+   "claim": "substring search is registered as a first-class arm and runs by default in every evaluation; it needs no index, no embeddings and no model",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "vault-canonical-split",
+   "claim": "1,078 canonical notes and 382 translations (measured 2026-08-11)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "demo-mode-non-invertible",
+   "claim": "the presentation toggle is not a substitution cipher, and unmarked text is scrambled by default rather than left readable",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "test-count-published",
+   "claim": "1,653 tests pass (measured 2026-08-12)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "cold-start-published",
+   "claim": "a cold process answers its first search in ~1.6 s on a 1,600-note vault (median of 7, 2026-08-12)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "ci-exists",
+   "claim": "a CI runs the suite on push and pull_request",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "codebase-file-count-published",
+   "claim": "584 tracked source files, median 156 lines (measured 2026-08-18)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "index-size-published",
+   "claim": "1,492 notes indexed by the hybrid retriever (measured 2026-08-20)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "tracker-shape",
+   "claim": "75 processes, 18 subjects, 22 debts derived with no model (measured 2026-08-11)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "funnel-triage-free",
+   "claim": "mechanical triage for free (verdict funnel step 1)",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "funnel-no-machine-verdict",
+   "claim": "The machine recommends. Only a human gesture writes",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "funnel-cache-hash",
+   "claim": "a byte-hash cache so an unchanged note is never paid twice",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  },
+  {
+   "id": "funnel-run-real",
+   "claim": "on 2026-08-10 two commands ratified 122 recommendations -- 98 kept, 24 archived, 0 skipped, each written item by item through the journalled path -- taking the queue from 273 to 151 that day (a snapshot, not today's count -- ingestion refills the queue continuously); the 223 recommendations behind them cost $7.94 over four runs",
+   "kind": "historical",
+   "verification": "recorded with dated evidence at verification time"
+  },
+  {
+   "id": "register-and-probes",
+   "claim": "31 published claims replayed against live evidence, 11 model-free health probes",
+   "kind": "mechanical",
+   "verification": "replayed at every publish and by a daily probe; a failing check blocks publication"
+  }
+ ]
+}
